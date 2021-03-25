@@ -1,0 +1,15 @@
+.loginBox{width:60%; height:auto; padding:10PX; margin:auto; border:1px solid #d0af51;}
+.loginBox p{width:100%; height:auto; margin-bottom:10px;}
+.loginBox p input{width:100%; padding:10px; border:1px solid #d0af51;}
+
+.loginBox .loginBtns{width:100%; height:auto; display:flex; justify-content: space-between;}
+.loginBox .loginBtns a{width:49%; padding:10px 0; text-align:center; display:inline-block; border:1px solid #d0af51; color:#d0af51; transition:all 0.4s;}
+.loginBox .loginBtns a:first-child{color:#fff; background:#d0af51; transition:all 0.4s;}
+
+.loginBox .loginBtns a:hover{color:#fff; background:#d0af51;}
+.loginBox .loginBtns a:first-child:hover{color:#d0af51; background:#fff;}
+
+.findInfo{width:60%; height:auto; margin:auto; padding:10px; display:flex; justify-content:flex-end;}
+.findInfo a{padding:0 20px; border-left:1px solid #d0af51;}
+.findInfo a:hover{text-decoration:underline;}
+.findInfo a:first-child{border-left:0;}

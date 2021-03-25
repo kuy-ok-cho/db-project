@@ -1,0 +1,454 @@
+@media screen and (max-width:1400px){
+  .topMain{width:100%;}
+}
+
+@media screen and (max-width:1200px){
+  .topMain .bannerBox{height:35vh;}
+  .topMain .headerBox{height:35vh;}
+
+  .topMain .sns ul{width:80%; margin:auto; float:none;}
+  .topMain .sns ul i.fa{width:30px; height:30px; font-size:12px;}
+  .topMain .gnb ul li{padding:0 25px;}
+  .topMain .gnb ul a{font-size:14px;}
+
+  .center{padding:0 15px;}
+
+  .product .boxRight .productTxt>div>h2{font-size:25px;}
+  .product .boxRight .productTxt>div>p{font-size:14px;}
+  .product .boxRight .productTxt>div>p.hide{display:none;}
+  .product .boxRight .productTxt>div>a{width:45%;}
+
+  .about .title .subTit .subLine, 
+  .contact .title .subTit .subLine{width:30%;}
+  .about .subTit a.subLink,
+  .contact .subTit a.subLink{width:15%;}
+
+  .topMain .logBox a{padding:0 15px;}
+  .topMain .sns ul{width:40%;}
+}
+
+@media screen and (max-width:950px){
+  .topMain .gnb ul li{padding:0 16px;}
+
+  /* .arrivals .arrivalBox .arrivalCon{height:350px;} */
+  .arrivals .arrivalBox .arrivalCon{width:32%;}
+  .arrivals .arrivalCon .arrivalTxt h2{font-size:25px;}
+  .arrivals .arrivalCon .arrivalTxt em{font-size:12px;}
+
+  .arrivals .arrivalCon .best a{ font-size:14px; padding:5px 35px;}
+  .arrivals .arrivalCon .best p{font-size:20px; font-weight:700; letter-spacing:2px;}
+
+  .fashionBox{padding:25px 0;}
+  .fashionBox .fashionTxt h2{margin-bottom:10px; font-size:20px;}
+  .fashionBox .fashionTxt p{display:none}
+  .fashionBox .fashionTxt a{padding:8px 25px; font-size:12px;}
+
+  .fashionBox>div>div>h2{font-size:16px; padding:5px 0 0 0;}
+  .fashionBox>div>div>em{font-size:12px;}
+  .fashionBox>div>div>a{font-size:12px; margin-top:5px;}
+
+  .contact .contactBox{flex-direction:column; margin:20px 0;}
+  .contact .contactBox>div{width:100%;}
+  .contact .contactBox>div.mapBox{height:250px;}
+
+  .contact .formBox .form input,
+  .contact .formBox .form textarea{padding:10px;}
+  .contact .formBox .form .message>textarea{height:250px;}
+  .contact .formBox .form a{padding:10px 0;}
+
+  /* join us page media style */
+  .joinBox{width:80%;}
+  .joinBox label{font-size:12px;}
+  .joinBox input{font-size:12px;}
+
+  /* design page style */
+  .designBoxes .designBox{width:33.33%;}
+
+  /* design input form style */
+  .webDesignInput .titleSer p label{display:none;}
+  .webDesignInput .titleSer p input{width:100%;}
+
+  /* design detail page style */
+  .designRight{padding-left:0;}
+
+  /* web page style */
+  .deWeBoxes .deWeBox.webBox{width:50%;}
+
+  /* app page style */
+  .appBoxes .appBox,
+  .appBoxes .appBox-sizer{width:33.33%;}
+
+  /* app detail page style */
+  .appFramebox>span.frameTop{background-size:contain;}
+
+  /* qna page style */
+.searchSelect{width:25%;}
+.qnaSearchInput, 
+.adminSearchInput{width:60%;}
+
+/* admin page style */
+.admin .adminTabs button{padding:10px 20px;}
+
+.admin .adminTable span.msgNum{width:10%;}
+.admin .adminTable span.msgId{width:15%;}
+.admin .adminTable span.msgTit{width:40%;}
+.admin .adminTable span.msgReg{width:25%;}
+.admin .adminTable span.msgDelete{width:10%;}
+.admin .adminTable span.msgEmail{display:none;}
+}
+
+@media screen and (max-width:800px){
+  .topMain{display:flex; flex-direction: column;}
+  .topMain>div:nth-child(1){order:0;}
+  .topMain>div:nth-child(2){order:2;}
+  .topMain>div:nth-child(3){order:1;}
+  .topMain>div:nth-child(4){order:3;}
+
+  .topMain .bannerBox{width:100%; float:none; height:20vh;}
+  .topMain .bannerBox .slogan h2{font-size:5.5vw;}
+
+  .topMain .headerBox{width:100%; float:none;}
+
+  .topMain .sns{width:100%; float:none; height:40px;}
+  .topMain .sns ul{width:50%; height:40px;}
+  .topMain .gnb{width:100%; float:none;}
+  .topMain .gnb ul{width:100%;}
+  .topMain .gnb ul li{width:16.66%; padding:0; justify-content: center;}
+
+  .product .productBox{flex-direction: column;}
+  .product .productBox .boxLeft{width:100%; display:flex; flex-wrap:nowrap;}
+  .product .productBox .boxRight{width:100%;}
+  .product .boxRight .productTxt{text-align:center;}
+  .product .boxRight .productTxt>div>a{margin:auto;}
+
+  .fashionBox{flex-wrap: wrap;}
+  .fashionBox>div{width:50%;}
+  .fashionBox .fashionTxt h2{margin-bottom:0;}
+  .fashionBox .fashionTxt p{display:block;}
+
+  .topMain .loginWrap{width:100%; align-items: center;}
+  .topMain .logBox{height:40px; font-size:12px; justify-content: center;}
+  .topMain .logBox a{padding:0 25px;}
+
+  .about .aboutTxt{padding:20px 0;}
+  .contents.about{padding:30px 0 20px;}
+  .about .sns{margin:20px 0 0 0;}
+
+  /* design page style */
+  .designBoxes .designBox .designTxt h2{font-size:16px; margin-bottom:0;}
+  .designBoxes .designBox .designTxt em{font-size:13px;}
+
+  /* design detail page style */
+  .deWeLeft{width:100%; float:none; margin-bottom:30px;}
+  .deWeRight{width:100%; float:none; padding:0 15%;}
+
+  .detailCon{padding-right:0; width:70%; margin:auto;}
+  .designRight .webLinks .subWebTxt em, .designRight .appLinks .subAppTxt em{font-size:12px;}
+
+  .deWeLeft{width:100%;}
+
+  a.commonBtn, button.commonBtn{padding:5px 0; font-size:12px;}
+
+  /* app page style */
+  .appBoxes .appBox{padding:3px;}
+  .appBoxes .appBox>div h2{font-size:17px;}
+  .appBoxes .appBox>div a{padding:5px 0; font-size:12px;}
+
+  /* app detail page style */
+  .appFramebox>span.frameTop{background-size:cover;}
+
+  /* qna page style */
+  .searchPaging>div{width:100%;}
+  .qnaSearch,
+  .adminSearch{display:flex; justify-content: space-evenly;}
+  .qnaSearchBtn,
+  .adminSearchBtn{width:10%;}
+  .searchPaging>div.paging{justify-content: center;}
+
+  .qnaBoxes .writeBox p label{font-size:12px;}
+  .qnaBoxes .writeBox p input{font-size:12px;}
+  .qnaBoxes .writeBox p textarea{font-size:12px;}
+  .qnaBoxes .writeBox button,
+  .qnaBoxes .writeBox a{font-size:12px;}
+
+  /* qna view page style */
+  .qnaView .answerBox .ansInputForm textarea{font-size:12px;}
+  .qnaView .answerBox .ansInputForm button{font-size:12px;}
+
+  .qnaView .ansResult p{font-size:12px;}
+}
+
+@media screen and (max-width:700px){
+  .title{width:100%; float:none; text-align:center;}
+  .title h2{font-size:30px;}
+  .title .linkBox{width:100%; display:block; text-align:center;}
+  .title .line{display:none;}
+  .title a{display:block; width:100%; float:none; text-align:center; }
+
+  .deWeDetail .title{width:100%; float:none; text-align:center; margin-bottom:20px;}
+  .deWeDetail .title h2{font-size:30px;}
+  .deWeDetail .title .linkBox{width:100%; display:block; text-align:center;}
+  .deWeDetail .title .line{display:none;}
+  .deWeDetail .title a{display:block; width:100%; float:none; text-align:center; }
+
+  .arrivals .arrivalBox{flex-direction: column; justify-content: center; align-items: center; padding:30px 0;}
+  .arrivals .arrivalBox .arrivalCon{width:70%;  margin-bottom:10px;}
+
+  .product .productBox{margin:30px 0 0;}
+
+  /* join us page media style */
+  .joinBox{width:90%;}
+  .joinBox label{display:none;}
+
+  .joinBox input{width:100%; padding:8px;}
+  .joinBox .idInputBox input{width:74%;}
+  .joinBox .emailInputBox{padding-bottom:10px}
+  .joinBox .emailInputBox input.email1{width:40%;}
+  .joinBox .emailInputBox input.email2{width:50%;}
+  .joinBox .formBtns{margin-top:10px;}
+
+  .hasTitle .title .subTit .subLine,
+  .hasTitle .title .subTit .subLine{width:60%;}
+  .hasTitle .subTit a.subLink,
+  .hasTitle .subTit a.subLink{width:35%;}
+
+  .loginBox{width:80%;}
+  .findInfo{justify-content: center;}
+
+  /* web page style */
+  .deWeBoxes .deWeBox .deWeTxt h2{font-size:18px; line-height:0.5;}
+  .deWeBoxes .deWeBox .deWeTxt em{font-size:13px;}
+  .web .webBoxBtns{margin-top:0;}
+  .web .webBoxBtns a{font-size:12px; padding:5px 0;}
+
+  .webTabBtns{text-align:center;}
+
+  /* app detail page style */
+  .appFramebox>span.frameTop{background-size:cover;}
+
+  /* qna page style */
+  .qnaBoxes .qnaTable li span{font-size:12px;}
+  .searchSelect{_height:25px; font-size:12px;}
+  .qnaSearchInput,
+  .adminSearchInput{_height:25px; font-size:12px;}
+  .qnaSearchBtn,
+  .adminSearchBtn{_width:25px; _height:25px;}
+
+  /* admin page style */
+  .admin .adminTabs button{padding:10px 25px; font-size:12px;}
+  .admin .adminTable{margin:10px auto;}
+
+  .adminViewBtns a{font-size:12px;}
+
+  .admin .adminTable span{font-size:12px; padding:7px 0;}
+  .admin .adminTable span.msgNum{width:15%;}
+  .admin .adminTable span.msgId{width:20%;}
+  .admin .adminTable span.msgTit{width:50%;} 
+  .admin .adminTable span.msgDelete{width:15%;}
+  .admin .adminTable span.msgReg{display:none;}
+
+  /* admin member tab style */
+  .memberTab span.memNum{display:none;}
+  .memberTab span.memId{width:20%;}
+  .memberTab span.memName{width:20%;}
+  .memberTab span.memLevel{width:15%}
+  .memberTab span.memPoint{width:15%;}
+  .memberTab span.memUpdate{width:15%;}
+  .memberTab span.memDelete{width:15%;}
+
+  /* admin qna tab style */
+  .qnaTab span.qnaNum{display:none;}
+  .qnaTab span.qnaCheck{width:10%;}
+  .qnaTab span.qnaId{width:10%;}
+  .qnaTab span.qnaTit{width:55%}
+  .qnaTab span.qnaReg{width:15%;}
+  .qnaTab span.qnaHit{width:10%;}
+
+  .searchPaging{text-align:center;}
+  .qnaTab .checkDeleteBtn{margin-top:0;}
+
+  .qnaTab .qnaResultBtns{text-align:center;}
+  .qnaTab .qnaResultBtns button{font-size:12px;}
+
+  /* detail page admin button style */
+  .productAdminBtns{text-align:center;}
+}
+
+@media screen and (max-width:600px){
+  .designBoxes .designBox{width:50%;}
+
+  .btns{flex-wrap:wrap; justify-content: space-between;}
+  .btns>a.commonBtn{margin-right:0; margin-top:5px;}
+  .btns>a:nth-child(1){width:49.5%;}
+  .btns>a:nth-child(2){width:49.5%;}
+  .btns>a:nth-child(3){width:100%; background:#d0af51; color:#fff;}
+
+  .webDesignInput .titleSer{flex-wrap:wrap;}
+  .webDesignInput .titleSer p{width:49.5%;}
+  .webDesignInput .titleSer p.title_input{width:100%; margin-bottom:10px;}
+  .webDesignInput .titleSer p.domain_input{width:100%; _margin-top:10px;}
+
+  .webDesignInput .uploadImgs{flex-wrap:wrap;}
+  .webDesignInput .uploadImgs .uploadBox{width:100%;}
+  .webDesignInput .uploadImgs .uploadBox.appImg{width:100%;}
+  .webDesignInput .uploadImgs .uploadBox.img2{margin:5px 0;}
+
+  .designUpload .btns .commonBtn{width:100%;}
+
+  .detailCon{width:90%;}
+
+  /* app page style */
+  .appBoxes .appBox,
+  .appBoxes .appBox-sizer{width:50%;}
+  .appBoxes .appBox>div{padding:3px;}
+  .appBoxes .appBox>div h2{font-size:14px;}
+
+  /* qna page style */
+  .qnaBoxes .qnaTable li span.qnaReg{display:none;}
+  .qnaBoxes .qnaTable li span.qnaId{width:25%;}
+  .qnaBoxes .qnaTable li span.qnaHit{width:15%;}
+
+  /* qna view page style */
+  .qnaView .answerBox .ansInputForm{flex-wrap:wrap;}
+  .qnaView .answerBox .ansInputForm .ansBtnBox{width:100%; padding-left:0; margin-top:3px;}
+  .qnaView .answerBox .ansInputForm textarea{width:100%;}
+  .qnaView .answerBox .ansInputForm button{padding:5px 0;}
+
+  .qnaView .ansResult{flex-wrap:wrap;}
+  .qnaView .ansResult p.adminId{width:100%; height:auto; padding:5px; border:1px solid #d0af51; justify-content: start; margin-bottom:5px;}
+  .qnaView .ansResult p.ansResultTxt{width:100%;}
+
+  /* admin page style */
+  .admin .adminTabs{display:flex; justify-content: center;}
+  .admin .adminTabs button{display:block; width:33%; margin:0 2px; padding:5px 0;}
+
+  /* admin qna tab style */
+  .qnaTab span.qnaCheck{width:10%;}
+  .qnaTab span.qnaId{width:20%;}
+  .qnaTab span.qnaTit{width:70%}
+  .qnaTab span.qnaReg{display:none;}
+  .qnaTab span.qnaHit{display:none;}
+}
+
+@media screen and (max-width:480px){
+  .center{padding:0 5px;}
+
+  .topMain .bannerBox .slogan{right:0; text-align:center;}
+  .topMain .bannerBox .slogan h2{font-size:7.5vw;}
+  .topMain .bannerBox .slogan p{letter-spacing:1px;}
+  .topMain .bannerBox .slogan hr{display:none;}
+
+  .topMain .sns ul{width:70%;}
+  .topMain .sns ul i.fa{border-radius:0; background:#aaa;}
+
+  .topMain .gnb{height:auto; padding:8px 20px; z-index:999; position:relative;}
+  .topMain .gnb ul{display:none; position:absolute; top:100%; left:0;}
+
+  .topMain .gnb ul li{float:none; width:100%; background:#000; height:45px; border-bottom:1px solid #d0af51;}
+  .topMain .gnb ul li:first-child{border-top:1px solid #d0af51;}
+
+  .mobileMenu{display:flex; z-index:999;}
+
+  .arrivals .arrivalBox .arrivalCon{width:90%;}
+
+  .product .productBox .boxLeft{flex-wrap:wrap;}
+
+  .fashionBox{padding:20px 0;}
+  .fashionBox .fashionTxt h2{margin-bottom:10px;}
+  .fashionBox .fashionTxt p{display:none;}
+  .fashionBox>div>div{padding:5px;}
+  .fashionBox .fashionTxt a{padding:6px 20px;}
+
+  .fashionBox>div>div>em{display:none;}
+
+  .hasTitle .title{margin-bottom:0;}
+  .hasTitle .title .subTit .subLine,
+  .hasTitle .title .subTit .subLine{width:60%;}
+  .hasTitle .subTit a.subLink{display:none;}
+
+  .about .aboutTxt{padding:30px 0;}
+  .about .aboutTxt p:nth-child(1){display:none;}
+
+  /* join us page style */
+  .joinBox input{padding:5px; height:35px; font-size:11px;}
+  .joinBox .emailInputBox span{font-size:14px;}
+  .joinBox button{height:35px;}
+
+  .loginBox{width:90%;}
+  .loginBox p input{font-size:12px; padding:8px 10px;}
+  .loginBox .loginBtns a{font-size:12px; padding:8px 0;}
+
+  .findInfo{width:100%; justify-content: center;}
+  .findInfo a{font-size:12px;}
+
+  .designBoxes .designBox .designTxt{padding:5px 0;}
+  .designBoxes .designBox .designTxt h2{font-size:14px;}
+  .designBoxes .designBox .designTxt em{display:none;}
+
+  /* design detail page stye */
+  .detailDesc p{font-size:12px;}
+  .deWeRight .webTit h2, 
+  .deWeRight .appTit h2{font-size:18px;}
+  .deWeRight{width:100%; float:none; padding:0 5%;}
+  .detailCon{padding-right:0; width:90%; margin:auto;}
+
+  /* web page style */
+  .deWeBoxes .deWeBox.webBox{width:100%;}
+
+  /* app detail page style */
+  .appFramebox{width:70%;}
+  .appFramebox>span.frameTop{background-size:cover;}
+  .appFramebox>span.frameBottom{background-size:cover;}
+
+  .appStoreBtns a{width:40%;}
+
+  /* qna page style */
+  .qnaBoxes .qnaTable{width:90%;}
+  .qnaBoxes .qnaTable li span.qnaTit{width:60%;}
+  .qnaBoxes .qnaTable li span.qnaNum{width:15%;}
+  .qnaBoxes .qnaTable li span.qnaHit{display:none;}
+
+  .qnaSearch{flex-wrap:wrap;}
+  .searchPaging{width:90%;}
+  .searchSelect{width:calc(30% - 2px);}
+  .qnaSearchInput,
+  .adminSearchInput{width:70%; margin:0;}
+  .qnaSearchBtn,
+  .adminSearchBtn{width:100%; margin-top:2px;}
+
+  .qnaBoxes .writeBox{width:90%; margin:20px auto 0;}
+
+  /* qna view page style */
+  .qnaView .writerInfo{width:90%; text-align:center;}
+  .qnaView .writeBox{margin:5px auto 0; text-align:center;}
+  .qnaView .answerBox{width:90%; margin-top:20px;}
+  .qnaBoxes .writeBox button, 
+  .qnaBoxes .writeBox a{float:none;}
+
+  .qnaView .ansResult{width:90%;}
+  .qnaView .ansResult p.adminId a{width:100%; text-align:center; margin-top:3px; padding:5px 0;}
+
+  /* admin page style */
+  .admin .adminTabs{width:90%;}
+  .adminViewBtns{width:90%;}
+  .admin .adminTable{width:90%;}
+  .admin .adminTable span.msgNum{display:none;}
+  .admin .adminTable span.msgId{width:20%;}
+  .admin .adminTable span.msgTit{width:60%;} 
+  .admin .adminTable span.msgDelete{width:20%;}
+
+  /* admin member tab style */
+  .memberTab span.memNum{display:none;}
+  .memberTab span.memId{width:25%;}
+  .memberTab span.memName{width:25%;}
+  .memberTab span.memLevel{width:25%}
+  .memberTab span.memPoint{width:25%;}
+  .memberTab span.memUpdate{width:50%;}
+  
+  .memberTab span.memDelete{width:50%;}
+  .memberTab span.memUpdate button,
+  .memberTab span.memDelete button{width:80%;}
+
+  .memberTab .adminTitle span.memDelete,
+  .memberTab .adminTitle span.memUpdate{display:none;}
+}

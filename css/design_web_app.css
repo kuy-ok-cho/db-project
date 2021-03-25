@@ -1,0 +1,146 @@
+/* common admin button style */
+.productAdminBtns{width:100%; height:auto;}
+.productAdminBtns button{border:1px solid #d0af51; background:#d0af51; color:#fff; padding:5px 30px; margin-top:10px;}
+
+/* design page box style */
+.deWeBoxes{width:100%; height:auto; overflow:hidden;}
+.deWeBoxes .deWeBox{width:25%; height:auto; float:left; padding:5px; }
+.deWeBoxes .deWeBox.webBox{width:33.33%;}
+
+.deWeBoxes .deWeBox>div{width:100%; height:100%; border:1px solid #d0af51; padding:5px; position:relative;}
+.deWeBoxes .deWeBox>div .boxOverlay{position:absolute; width:100%; height:100%; top:0; left:0; background:rgba(208, 175, 81, 0.7); display:flex; justify-content: center;align-items: center; border:1px solid #fff; opacity:0; visibility: hidden; transition:all 0.3s;}
+
+.deWeBox:hover>div .boxOverlay{opacity:1; visibility: visible;;}
+
+.deWeBoxes .boxOverlay i.fa{color:#fff; font-size:20px; width:50px; height:50px; border:2px solid #fff; border-radius:50%; display:flex; justify-content: center;align-items: center;}
+
+.deWeBoxes .deWeBox .deWeImg{width:100%; height:auto; overflow:hidden; position:relative; display:flex; align-items: center; justify-content: center;}
+.deWeBoxes .deWeBox .deWeImg img{width:100%;}
+
+.deWeBoxes .deWeBox .deWeTxt{width:100%; height:auto; display:flex; align-items: center; justify-content: center; flex-direction: column; padding:15px 0; text-align:center;}
+.deWeBoxes .deWeBox .deWeTxt h2{color:#d0af51; font-weight:400; margin-bottom:10px;}
+.deWeBoxes .deWeBox .deWeTxt em{font-style:normal; line-height:1.4;}
+
+/* buttons style */
+.btns{display:flex; width:100%; height:auto; margin:0; justify-content: center; transition:all 0.3s;}
+.btns .commonBtn{margin-right:1px; transition:all 0.3s;}
+.btns .commonBtn:hover{background:#d0af51; color:#fff;}
+
+/**********************************
+design detail page style
+***********************************/
+
+/* design detail left box style */
+.deWeLeft{width:60%; height:auto; float:left;}
+.deWeDetail .title{float:none; margin-bottom:50px;}
+.deWeDetail .title a{width:20%;}
+
+.deWeDetail .title:hover .line{width:20%;}
+
+.detailCon{width:100%; height:auto; padding-right:20%;}
+.detailCon .detailImg1{width:100%; height:auto; _border-left:3px solid #d0af51;}
+.detailCon .detailImg1 .imgBox{width:100%; height:auto; _float:right; padding:10px; border:1px solid #d0af51; margin:auto;}
+
+.detailCon .detailImg1>.imgBox>img{width:100%;}
+
+.deWeLeft .imgNav{width:100%; height:auto; padding:5px 0;}
+.deWeLeft .imgNav a{width:50px; height:50px; display:inline-block; overflow:hidden; border:5px solid #fff; _outline:1px solid #d0af51; position:relative;}
+
+.deWeLeft .imgNav>a>img{height:100%; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);}
+.deWeLeft a .dotOverlay{position:absolute; left:0; top:0; width:100%; height:100%; background:rgba(208, 175, 81, 0.6);}
+
+.deWeLeft .imgNav a.active{ outline:1px solid #d0af51;}
+.deWeLeft a.active .dotOverlay{display:none;}
+
+.detailInfo{width:100%; height:auto; padding:5px 0 10px 0; font-weight:300; color:#d0af51;}
+.detailDesc p{color:#838383; font-weight:300;}
+.detailDesc a{display:flex; width:100%; align-items: center; padding:10px 0; color:#d0af51;}
+.detailDesc i.fa{width:25px; height:25px; border:1px solid #d0af51; border-radius:50%; display:flex; align-items: center; justify-content: center; color:#d0af51; margin-right:10px;}
+
+/* design and web detail right box style */
+.deWeRight{width:40%; height:auto; float:right; padding-left:5%;}
+.deWeRight .detailWeb{width:100%; height:auto; margin-bottom:25px;}
+.deWeRight .webTit, 
+.deWeRight .appTit{width:100%; height:auto; padding: 0 0 10px 0; border-bottom:1px solid #d0af51; display:flex; justify-content: space-between; align-items: baseline;}
+.deWeRight .webTit h2,
+.deWeRight .appTit h2{font-size:22px; font-weight:400; text-transform:uppercase;}
+.deWeRight .webTit a,
+.deWeRight .appTit a{color:#d0af51;}
+.deWeRight .webTit a:hover,
+.deWeRight .appTit a:hover{text-decoration: underline;}
+
+.deWeRight .detailWeb .webLinks, 
+.deWeRight .detailApp .appLinks{width:100%; height:auto; display:flex; padding:10px 0; border-bottom:1px dotted #838383;}
+.deWeRight .webLinks .subWebImg,
+.deWeRight .appLinks .subAppImg{width:40%; height:auto; overflow:hidden;}
+.deWeRight .webLinks .subWebImg img,
+.deWeRight .appLinks .subAppImg img{width:100%;}
+.deWeRight .webLinks .subWebTxt,
+.deWeRight .appLinks .subAppTxt{width:60%; padding-left:10px; display:flex; flex-direction: column; justify-content: center;}
+.deWeRight .webLinks .subWebTxt a,
+.deWeRight .appLinks .subAppTxt a{font-weight:600; font-size:16px; color:#d0af51;}
+.deWeRight .webLinks .subWebTxt a:hover,
+.deWeRight .appLinks .subAppTxt a:hover{text-decoration:underline;}
+.deWeRight .webLinks .subWebTxt em,
+.deWeRight .appLinks .subAppTxt em{color:#838383; font-weight:300; font-style:normal;}
+
+/**********************************
+Web page style
+***********************************/
+
+.web .webBoxBtns{width:100%; height:auto; display:flex; justify-content: space-between; margin-top:10px;}
+.web .webBoxBtns a{display:inline-block; text-align:center; width:49%; padding:10px 0; border:1px solid #d0af51; color:#d0af51; transition:all 0.4s;}
+.web .webBoxBtns a:nth-child(1), 
+.web .webBoxBtns a:hover{background:#d0af51; color:#fff;}
+
+/**********************************
+Web detail page style
+***********************************/
+
+.webDetail .webTabBtns button{width:100px; text-align:center; background:#fff; border:1px solid #d0af51; color:#d0af51; padding:10px 0; transition:all 0.4s;}
+.webDetail .webTabBtns button:hover,
+.webDetail .webTabBtns button.active{color:#fff; background:#d0af51;}
+
+/* pc frame style */
+.webDetail .webBox{width:100%; height:450px; margin-top:20px; position:relative;}
+.webDetail .webBox .webPcFrame{width:100%; height:100%;}
+.webDetail .webBox .webPcFrame img{width:100%; position:absolute; top:0; left:0;}
+.webDetail .webBox .webPcFrame .webMainImg{width:100%; height:75%; position:relative; overflow:hidden;}
+.webDetail .webBox .webPcFrame .webMainImg img{width:92%; left:50%; transform:translateX(-50%);}
+
+/* mobile frame style */
+.webDetail .webBox_m{width:100%; height:600px; margin-top:20px; position:relative;}
+.webDetail .webBox_m .webMobileFrame{width:98%; height:100%;}
+.webDetail .webBox_m .webMobileFrame img{width:100%; position:absolute; top:0; left:0;}
+.webDetail .webBox_m .webMobileFrame .webMainImg_m{width:43%; height:100%; position:relative; overflow:hidden; margin:auto; top:10px;}
+.webDetail .webBox_m .webMobileFrame .webMainImg_m img{top:0; left:0;}
+
+/**********************************
+app page style
+***********************************/
+
+.appBoxes .appBox,
+.appBoxes .appBox-sizer{width:25%;}
+.appBoxes .appBox{padding:5px;}
+.appBoxes .appBox>div{padding:5px; border:1px solid #d0af51; display:flex; flex-direction: column; text-align:center;}
+.appBoxes .appBox>div h2{color:#d0af51; font-weight:600; padding:5px 0;}
+.appBoxes .appBox>div a{width:100%; text-align:center; padding:10px 0; border:1px solid #d0af51; background:#d0af51; color:#fff;}
+.appBoxes .appBox img{width:100%;}
+
+/**********************************
+app detail page style
+***********************************/
+
+.appFramebox{width:50%; position:relative; margin:0 auto 25px;}
+.appFramebox img{width:95%; margin:auto;}
+
+.appFramebox>span{position:absolute; display:block; background:#ddd;}
+.appFramebox>span.frameTop{width:100%; height:30px; top:0; left:0; background:url(/gold/img/frame_top.png) no-repeat top center; background-size:cover;}
+.appFramebox>span.frameLeft{width:20px; height:100%; top:0; left:0;background:url(/gold/img/frame_right.png) no-repeat left center; background-size:cover;}
+.appFramebox>span.frameRight{width:20px; height:100%; top:0; right:0;
+  background:url(/gold/img/frame_left.png) no-repeat right center; background-size:cover;}
+.appFramebox>span.frameBottom{width:100%; height:30px;bottom:0; left:0;background:url(/gold/img/frame_bottom.png) no-repeat bottom center; background-size:cover;}
+
+.appStoreBtns{width:100%; height:auto; text-align:center; margin-bottom:25px;}
+.appStoreBtns a{width:30%; display:inline-block;}
+.appStoreBtns a img{width:100%;}

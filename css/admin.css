@@ -1,0 +1,64 @@
+.admin .adminTabs{width:80%; margin:auto; height:auto; text-align:center;}
+.admin .adminTabs button{border:1px solid #d0af51; color:#d0af51; font-weight:600;
+background:#fff; padding:10px 40px; transition:all 0.4s;}
+.admin .adminTabs button i{font-style:normal; display:none;}
+.admin .adminTabs button:hover,
+.admin .adminTabs button.active{background:#d0af51; color:#fff;}
+
+/* admin message table style */
+.admin .adminTable{width:80%; height:auto; margin:50px auto 10px;}
+.admin .adminTable li{width:100%; height:auto;}
+
+.admin .adminTable li:nth-child(odd){background:#f0f0f0;}
+.admin .adminTable li.adminTitle{background:#d0af51;}
+
+.admin .adminTable span{text-align:center;  display:block; float:left;padding:10px 0;font-family:'Noto Sans KR'; font-weight:300;}
+.admin .adminTable .adminTitle span{color:#fff;}
+.admin .adminTable .adminContents span{color:#838383;}
+.admin .adminTable .adminContents span a{color:#838383;}
+.admin .adminTable li.adminContents:last-child{border-bottom:1px solid #d0af51;}
+.admin .adminTable span.msgNum{width:5%;}
+.admin .adminTable span.msgId{width:10%;}
+.admin .adminTable span.msgTit{width:35%;}
+.admin .adminTable span.msgReg{width:20%;}
+.admin .adminTable span.msgEmail{width:20%;}
+.admin .adminTable span.msgDelete{width:10%;}
+.admin .adminTable li.adminContents span.msgDelete a{background:#d0af51; color:#fff; padding:3px 10px; font-size:12px;}
+
+/* admin view page style */
+.adminViewBtns{width:80%; height:auto; margin:auto; text-align:right;}
+.adminViewBtns a{padding:5px 15px; border:1px solid #d0af51; display:inline-block; background:#d0af51; transition:all 0.4s; color:#fff; margin-left:0;}
+.adminViewBtns a:hover{color:#d0af51; background:#fff;}
+.adminView div.writeBox{margin-bottom:10px;}
+
+.adminSearch{display:flex; justify-content: flex-end; flex-wrap:wrap;}
+.adminPanel div.search{float:right;}
+
+/* admin member tab style */
+.memberTab span.memNum{width:10%;}
+.memberTab span.memId{width:20%;}
+.memberTab span.memName{width:20%;}
+.memberTab span.memLevel{width:15%}
+.memberTab span.memPoint{width:15%;}
+.memberTab span.memUpdate{width:10%;}
+.memberTab span.memDelete{width:10%;}
+
+.memberTab span.memLevel input,
+.memberTab span.memPoint input{width:80%; border:1px solid #d0af51; border-radius:0; outline:0; color:#838383; text-align:center; padding:3px 0;}
+
+.memberTab span.memDelete button,
+.memberTab span.memUpdate button{background:#d0af51; color:#fff; padding:3px 10px; font-size:12px; border:1px solid #d0af51; outline:0;}
+
+/* admin qna delete tab style */
+
+.qnaTab span.qnaCheck{width:5%;}
+.qnaTab span.qnaNum{width:15%;}
+.qnaTab span.qnaId{width:10%;}
+.qnaTab span.qnaTit{width:45%}
+.qnaTab span.qnaReg{width:15%;}
+.qnaTab span.qnaHit{width:10%;}
+
+.qnaTab .checkDeleteBtn{border:0; outline:0; background:#d0af51; color:#fff; padding:0 30px; height:30px; margin-top:10px;}
+
+.qnaTab .qnaResultBtns{width:80%; height:auto; margin:auto; text-align:right;}
+.qnaTab .qnaResultBtns button{border:1px solid #d0af51; outline:0; background: #d0af51; color:#fff; padding:5px 30px;}

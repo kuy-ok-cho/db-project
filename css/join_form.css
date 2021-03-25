@@ -1,0 +1,25 @@
+/* join form style */
+.joinBox{width:60%; border:1px solid #d0af51; padding:10px; margin:auto;}
+.joinBox .inputBox{display:flex; justify-content: space-between; margin-bottom:10px;}
+.joinBox label{display:flex; height:40px; border:1px solid #d0af51; width:25%; align-items: center; justify-content: center; color:#fff; background:#d0af51; font-size:14px;}
+.joinBox input{display:block; height:40px; border:1px solid #d0af51; width:74%; padding:10px;}
+.joinBox .idInputBox input{width:48%;}
+.joinBox input:focus{background:#f8f8f8;}
+.joinBox button{display:block; height:40px; border:1px solid #d0af51; border-radius:0; width:25%; color:#d0af51; background:#fff; transition:all 0.4s;}
+.joinBox button:hover{color:#fff; background:#d0af51; }
+
+.joinBox .emailInputBox{border-bottom:1px solid #d0af51;padding-bottom:20px;}
+.joinBox .emailInputBox input.email1{width:29%;}
+.joinBox .emailInputBox span{display:flex; width:4%; font-size:20px; align-items: center; justify-content:center;}
+.joinBox .emailInputBox input.email2{width:39%;}
+
+/* buttons reset and send style */
+.joinBox .formBtns{display:flex; justify-content: space-between; margin-top:20px;}
+.joinBox .formBtns .sendBtn,
+.joinBox .formBtns .resetBtn{width:49%; background:#fff; color:#d0af51; transition:all 0.4s;}
+
+.joinBox .formBtns .sendBtn:hover,
+.joinBox .formBtns .resetBtn:hover{background:#d0af51; color:#fff;}
+
+/* .joinBox .nameInputBox input{width:84%;}
+.joinBox .passInputBox input{width:84%;} */

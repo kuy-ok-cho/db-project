@@ -1,0 +1,34 @@
+/* design input page style */
+.webDesignInput{width:100%; height:auto; border:1px solid #d0af51; padding:10px;}
+.webDesignInput .titleSer{width:100%; height:auto; display:flex; justify-content: space-between;}
+/* .designInputFrom .titleSer .title_input{display:flex;}
+.designInputFrom .titleSer .serial_input{display:flex;} */
+.webDesignInput .titleSer p{width:33%; _float:left;}
+
+.webDesignInput .titleSer p.serial_input{_float:right;}
+.webDesignInput .titleSer p label{background:#d0af51; color:#fff; padding:10.5px 0px; display:block; width:25%; text-align:center; float:left;}
+.webDesignInput .titleSer p input{width:75%; border:1px solid #d0af51; padding:10px; float:left;}
+
+.webDesignInput .uploadDesc textarea{width:100%; height:200px; border:1px solid #d0af51; margin-top:10px; resize:none; padding:10px;}
+
+.webDesignInput .uploadImgs{width:100%; height:auto; display:flex; justify-content:space-between;}
+.webDesignInput .uploadImgs .uploadBox{_float:left; width:33%; height:auto; position:relative;}
+.webDesignInput .uploadImgs .uploadBox.appImg{width:49.5%;}
+.webDesignInput .uploadBox .inputControll{text-align:center;}
+.webDesignInput .inputControll input[type="file"]{position:absolute; width:1px; height:1px; padding:0; margin:-1; overflow:hidden;}
+.webDesignInput .inputControll label{display:block; width:100%; height:auto; padding:10px 0; text-align:center; border:1px solid #d0af51; color:#fff; transition:all 0.3s; background:#d0af51;}
+.webDesignInput .inputControll label:hover{background:#fff; color:#d0af51;}
+.webDesignInput .uploadName{display:block; padding:10px; width:100%; border:1px solid #d0af51; color:#d0af51; margin-bottom:10px;}
+.webDesignInput .imgWrap{width:100%; height:auto; padding:5px; border:1px solid #d0af51; overflow:hidden; margin-top:10px;}
+.webDesignInput .imgWrap img{width:100%;}
+
+/* buttons style */
+.btns{display:flex; width:100%; height:auto; margin:0; justify-content: center; transition:all 0.3s;}
+.btns .commonBtn{margin-right:1px; transition:all 0.3s; background:#fff;}
+.btns .commonBtn:hover{background:#d0af51; color:#fff;}
+
+/* web input page style */
+.webInputFrom .titleSer{flex-wrap:wrap;}
+.webInputFrom .titleSer p{width:49.5%;}
+.webInputFrom .titleSer p:nth-child(1),
+.webInputFrom .titleSer p:nth-child(2){margin-bottom:10px;}
