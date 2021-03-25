@@ -25,3 +25,5 @@
 
 include $_SERVER['DOCUMENT_ROOT'].'/gold/php_process/connect/db_connect.php';
 
+
+test    입니다.
